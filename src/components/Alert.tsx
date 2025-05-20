@@ -1,6 +1,9 @@
+// Allows us to pass HTML content to out Alert component
+import { ReactNode } from "react";
+
 // Making alert dynamic
 interface Props {
-  children: string;
+  children: ReactNode;
 }
 
 const Alert = ({ children }: Props) => {
